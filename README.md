@@ -1,1 +1,1 @@
-# rpg-maker-horror-game-jam
+# RPGMaker_Horror_GameJam_24
