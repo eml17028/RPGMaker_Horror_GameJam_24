@@ -1,5 +1,6 @@
 [
 null,
-{"id":1,"expanded":false,"name":"TestInside","order":1,"parentId":0,"scrollX":1138,"scrollY":637},
-{"id":2,"expanded":false,"name":"SpookyRoom","order":2,"parentId":1,"scrollX":832,"scrollY":640}
+{"id":1,"expanded":true,"name":"TestRoom","order":1,"parentId":0,"scrollX":1139,"scrollY":637},
+{"id":2,"expanded":false,"name":"SpookyRoom","order":2,"parentId":1,"scrollX":1139,"scrollY":637},
+{"id":3,"expanded":true,"name":"SecretSpookyRoom","order":3,"parentId":1,"scrollX":1131,"scrollY":637}
 ]
