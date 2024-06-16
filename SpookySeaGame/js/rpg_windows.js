@@ -549,25 +549,11 @@ Window_Base.prototype.drawCurrentAndMax = function(current, max, x, y,
 };
 
 Window_Base.prototype.drawActorHp = function(actor, x, y, width) {
-    width = width || 186;
-    var color1 = this.hpGaugeColor1();
-    var color2 = this.hpGaugeColor2();
-    this.drawGauge(x, y, width, actor.hpRate(), color1, color2);
-    this.changeTextColor(this.systemColor());
-    this.drawText(TextManager.hpA, x, y, 44);
-    this.drawCurrentAndMax(actor.hp, actor.mhp, x, y, width,
-                           this.hpColor(actor), this.normalColor());
+
 };
 
 Window_Base.prototype.drawActorMp = function(actor, x, y, width) {
-    width = width || 186;
-    var color1 = this.mpGaugeColor1();
-    var color2 = this.mpGaugeColor2();
-    this.drawGauge(x, y, width, actor.mpRate(), color1, color2);
-    this.changeTextColor(this.systemColor());
-    this.drawText(TextManager.mpA, x, y, 44);
-    this.drawCurrentAndMax(actor.mp, actor.mmp, x, y, width,
-                           this.mpColor(actor), this.normalColor());
+
 };
 
 Window_Base.prototype.drawActorTp = function(actor, x, y, width) {
@@ -586,11 +572,11 @@ Window_Base.prototype.drawActorSimpleStatus = function(actor, x, y, width) {
     var x2 = x + 180;
     var width2 = Math.min(200, width - 180 - this.textPadding());
     this.drawActorName(actor, x, y);
-    this.drawActorLevel(actor, x, y + lineHeight * 1);
+   // this.drawActorLevel(actor, x, y + lineHeight * 1);
     this.drawActorIcons(actor, x, y + lineHeight * 2);
-    this.drawActorClass(actor, x2, y);
-    this.drawActorHp(actor, x2, y + lineHeight * 1, width2);
-    this.drawActorMp(actor, x2, y + lineHeight * 2, width2);
+   // this.drawActorClass(actor, x2, y);
+ //   this.drawActorHp(actor, x2, y + lineHeight * 1, width2);
+    //this.drawActorMp(actor, x2, y + lineHeight * 2, width2);
 };
 
 Window_Base.prototype.drawItemName = function(item, x, y, width) {
@@ -1887,9 +1873,9 @@ Window_ItemCategory.prototype.update = function() {
 
 Window_ItemCategory.prototype.makeCommandList = function() {
     this.addCommand(TextManager.item,    'item');
-    this.addCommand(TextManager.weapon,  'weapon');
-    this.addCommand(TextManager.armor,   'armor');
-    this.addCommand(TextManager.keyItem, 'keyItem');
+   // this.addCommand(TextManager.weapon,  'weapon');
+   // this.addCommand(TextManager.armor,   'armor');
+   // this.addCommand(TextManager.keyItem, 'keyItem');
 };
 
 Window_ItemCategory.prototype.setItemWindow = function(itemWindow) {
@@ -2585,7 +2571,7 @@ Window_Status.prototype.drawBasicInfo = function(x, y) {
     var lineHeight = this.lineHeight();
     this.drawActorLevel(this._actor, x, y + lineHeight * 0);
     this.drawActorIcons(this._actor, x, y + lineHeight * 1);
-    this.drawActorHp(this._actor, x, y + lineHeight * 2);
+   // this.drawActorHp(this._actor, x, y + lineHeight * 2);
     this.drawActorMp(this._actor, x, y + lineHeight * 3);
 };
 
@@ -5527,14 +5513,14 @@ Window_BattleStatus.prototype.drawGaugeArea = function(rect, actor) {
 };
 
 Window_BattleStatus.prototype.drawGaugeAreaWithTp = function(rect, actor) {
-    this.drawActorHp(actor, rect.x + 0, rect.y, 108);
-    this.drawActorMp(actor, rect.x + 123, rect.y, 96);
-    this.drawActorTp(actor, rect.x + 234, rect.y, 96);
+    //this.drawActorHp(actor, rect.x + 0, rect.y, 108);
+   // this.drawActorMp(actor, rect.x + 123, rect.y, 96);
+   // this.drawActorTp(actor, rect.x + 234, rect.y, 96);
 };
 
 Window_BattleStatus.prototype.drawGaugeAreaWithoutTp = function(rect, actor) {
-    this.drawActorHp(actor, rect.x + 0, rect.y, 201);
-    this.drawActorMp(actor, rect.x + 216,  rect.y, 114);
+   // this.drawActorHp(actor, rect.x + 0, rect.y, 201);
+    //this.drawActorMp(actor, rect.x + 216,  rect.y, 114);
 };
 
 //-----------------------------------------------------------------------------
