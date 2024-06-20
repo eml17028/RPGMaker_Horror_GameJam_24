@@ -356,3 +356,7 @@ Game_Event.prototype.isDashing = function() {
 };
 
 })();
+
+
+
+this._isDashing = status;   // status can be true or false
