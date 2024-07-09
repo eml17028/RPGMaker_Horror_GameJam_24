@@ -19,7 +19,7 @@ null,
 {"id":17,"expanded":true,"name":"Chapel","order":18,"parentId":6,"scrollX":819,"scrollY":461},
 {"id":18,"expanded":true,"name":"Shack","order":10,"parentId":9,"scrollX":819,"scrollY":461},
 {"id":19,"expanded":true,"name":"Paula Maps","order":19,"parentId":0,"scrollX":540.6666666666666,"scrollY":316.6666666666667},
-{"id":20,"expanded":true,"name":"Convenience Store","order":20,"parentId":19,"scrollX":540.6666666666666,"scrollY":316.6666666666667},
+{"id":20,"expanded":true,"name":"Convenience Store","order":20,"parentId":19,"scrollX":546,"scrollY":307.3333333333333},
 {"id":21,"expanded":false,"name":"Backrooms","order":21,"parentId":19,"scrollX":546,"scrollY":307.3333333333333},
 {"id":22,"expanded":false,"name":"Grandpa's House","order":22,"parentId":19,"scrollX":546,"scrollY":307.3333333333333}
 ]
