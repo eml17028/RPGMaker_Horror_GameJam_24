@@ -2,7 +2,7 @@
 null,
 {"id":1,"expanded":true,"name":"TestRoom","order":1,"parentId":0,"scrollX":899.3333333333334,"scrollY":529.3333333333334},
 {"id":2,"expanded":true,"name":"Chapel","order":21,"parentId":19,"scrollX":546,"scrollY":307.3333333333333},
-{"id":3,"expanded":false,"name":"Bar","order":22,"parentId":19,"scrollX":546,"scrollY":307.3333333333333},
+{"id":3,"expanded":false,"name":"Bar","order":22,"parentId":19,"scrollX":1052.6666666666667,"scrollY":427.3333333333333},
 null,
 {"id":5,"expanded":false,"name":"TileRoom","order":2,"parentId":1,"scrollX":540.6666666666666,"scrollY":316.6666666666667},
 {"id":6,"expanded":true,"name":"SirenIsle_TownMap","order":3,"parentId":0,"scrollX":540.6666666666666,"scrollY":374},
