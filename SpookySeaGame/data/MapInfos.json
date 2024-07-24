@@ -33,8 +33,8 @@ null,
 {"id":31,"expanded":true,"name":"EndShore","order":24,"parentId":30,"scrollX":759.3333333333334,"scrollY":424.6666666666667},
 {"id":32,"expanded":true,"name":"Bad End","order":25,"parentId":31,"scrollX":759.3333333333334,"scrollY":424.6666666666667},
 {"id":33,"expanded":false,"name":"Good End","order":26,"parentId":31,"scrollX":759.3333333333334,"scrollY":424.6666666666667},
-{"id":34,"expanded":true,"name":"Credits","order":20,"parentId":27,"scrollX":759.3333333333334,"scrollY":424.6666666666667},
+{"id":34,"expanded":true,"name":"Credits","order":20,"parentId":27,"scrollX":1052.6666666666667,"scrollY":427.3333333333333},
 {"id":35,"expanded":true,"name":"Water Station","order":14,"parentId":6,"scrollX":832,"scrollY":640},
 null,
-{"id":37,"expanded":true,"name":"Dream 3","order":27,"parentId":12,"scrollX":759.3333333333334,"scrollY":424.6666666666667}
+{"id":37,"expanded":true,"name":"Dream 3","order":27,"parentId":12,"scrollX":1052.6666666666667,"scrollY":427.3333333333333}
 ]
